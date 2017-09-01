@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <reco.frame.tv.view.TvVerticalPager
+        android:id="@+id/tvp_container"
+        android:layout_width="@dimen/px1480"
+        android:layout_height="@dimen/px430"
+        android:layout_marginLeft="@dimen/px160"
+        android:layout_marginTop="@dimen/px333" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <reco.frame.tv.view.TvButton
+        app:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:layout_marginTop="@dimen/px30"
+        android:focusable="true"
+        android:layout_marginLeft="@dimen/px150"
+        android:id="@+id/iv_mian"
+        android:background="@drawable/g3"
+        app:scale="1.05"
+        android:layout_width="@dimen/px1050"
+        android:layout_height="@dimen/px500" />
+
+    <reco.frame.tv.view.TvButton
+        app:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:layout_marginTop="@dimen/px30"
+        android:focusable="true"
+        android:layout_marginLeft="@dimen/px50"
+        android:id="@+id/iv_right"
+        app:scale="1.05"
+        android:background="@drawable/demo1"
+        android:layout_width="@dimen/px500"
+        android:layout_height="@dimen/px500"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/iv_mian" />
+    <reco.frame.tv.view.TvButton
+        app:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/px50"
+        android:layout_marginLeft="@dimen/px150"
+        android:layout_below="@+id/iv_mian"
+        android:id="@+id/iv_below_left"
+        android:background="@drawable/g3"
+        android:layout_width="@dimen/px500"
+        android:layout_height="@dimen/px300" />
+    <reco.frame.tv.view.TvButton
+        app:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/px50"
+        android:layout_marginLeft="@dimen/px50"
+        android:layout_toEndOf="@+id/iv_below_left"
+        android:layout_below="@+id/iv_mian"
+        android:id="@+id/iv_below_right"
+        android:background="@drawable/g3"
+        android:layout_width="@dimen/px500"
+        android:layout_height="@dimen/px300" />
+    <reco.frame.tv.view.TvButton
+        app:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/px50"
+        android:layout_marginLeft="@dimen/px50"
+        android:layout_toEndOf="@+id/iv_below_right"
+        android:layout_below="@+id/iv_right"
+        android:id="@+id/iv_below_end"
+        android:background="@drawable/g3"
+        android:layout_width="@dimen/px500"
+        android:layout_height="@dimen/px300" />
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\MyTVResource\\framedemo2\\recoTvFrameDemo\\build\\intermediates\\res\\merged\\debug\\menu\\free.xml",
+        "source": "F:\\MyTVResource\\framedemo2\\recoTvFrameDemo\\build\\intermediates\\exploded-aar\\framedemo2\\recoTvFrame\\unspecified\\res\\menu\\free.xml"
+    },
+    {
+        "merged": "F:\\MyTVResource\\framedemo2\\recoTvFrameDemo\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\MyTVResource\\framedemo2\\recoTvFrameDemo\\src\\main\\res\\menu\\main.xml"
+    }
+]

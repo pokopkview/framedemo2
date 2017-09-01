@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "reco.frame.demo"
+        minSdkVersion 14
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+}
+
+dependencies {
+    compile project(':recoTvFrame')
+    compile files('libs/commons-codec-1.4.jar')
+    compile files('libs/core.jar')
+    compile files('libs/httpmime-4.1.1.jar')
+    compile files('libs/tvframe_remote.jar')
+    compile files('libs/umeng-sdk-analytics_v5.2.2.jar')
+    compile 'com.jakewharton:butterknife:7.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:design:23.2.0'
+}

@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:clipToPadding="false" >
+
+
+    <!--<ImageView -->
+    <!--android:id="@+id/iv_image"-->
+    <!--android:layout_width="@dimen/px300"-->
+    <!--android:layout_height="@dimen/px300"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--/>-->
+
+    <!--<reco.frame.tv.view.TvButton-->
+    <!--android:id="@+id/tb_get"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/px100"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:background="@android:color/holo_blue_light"-->
+    <!--android:onClick="loadImage"-->
+    <!--android:text="加载网络图片"-->
+    <!--android:textSize="@dimen/px36"-->
+    <!--tv:cursorRes="@drawable/cursor_rectangle_boarder_orange" />-->
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:focusable="true"
+        android:hint="搜索"
+        android:gravity="center"
+        android:drawableLeft="@drawable/component_exiuviewheader_search"
+        android:layout_alignParentStart="true"
+        android:layout_width="140dp"
+        android:layout_height="45dp" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/qqq20160616144754"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false" />
+
+
+    <reco.frame.demo.TVviewpager
+        android:layout_below="@+id/iv_logo"
+        android:id="@+id/vp_testsss"
+        android:focusable="true"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:layout_below="@+id/vp_testsss"
+        android:id="@+id/view_null"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_navigation"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/view_null"
+        android:text="专区导航"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <reco.frame.tv.view.TvButton
+        android:layout_below="@+id/view_null"
+        android:background="#1169EE"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:text="添加栏目"
+        android:focusable="true"
+        android:id="@+id/bt_add"
+        tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <reco.frame.tv.view.TvButton
+        android:layout_below="@+id/view_null"
+        android:layout_marginEnd="20dp"
+        android:background="#1169EE"
+        android:layout_alignParentEnd="true"
+        android:textSize="24sp"
+        android:focusable="true"
+        android:textColor="#ffffff"
+        android:text="管理栏目"
+        android:id="@+id/bt_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <reco.frame.tv.view.TvGallery
+        android:layout_below="@+id/tv_navigation"
+        android:id="@+id/tgv_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        tv:scalable="false"
+        tv:scrollMode="EDGE"
+        tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        tv:itemWidth="@dimen/px300"
+        tv:itemHeight="@dimen/px300"
+        tv:spaceHori="@dimen/px30"
+        tv:paddingLeft="@dimen/px100"
+        tv:paddingTop="@dimen/px21"
+        tv:animationType="TRANSLATE"
+        />
+
+
+</RelativeLayout>

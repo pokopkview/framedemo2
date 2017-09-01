@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="20dp"
+    android:paddingTop="100dp"
+    android:paddingRight="20dp" >
+
+    <Button
+        android:id="@+id/bt_get_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="发送请求" />
+    
+    <TextView 
+        android:id="@+id/tv_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/bt_get_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_get_string"
+        android:layout_marginTop="20dp"
+        android:text="获取图片" />
+    
+    <ImageView 
+        android:id="@+id/iv_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_string"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt_send_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_get_image"
+        android:layout_marginTop="20dp"
+        android:text="图片投屏" />
+    
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_send_image"
+        android:layout_marginTop="110dp"
+        android:text="左键" />
+     
+      <Button
+        android:id="@+id/bt_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_get_image"
+        android:layout_alignTop="@+id/bt_left"
+        android:layout_alignParentRight="true"
+        android:text="右键" />
+      
+      <Button
+        android:id="@+id/bt_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="点击联接" />
+
+
+</RelativeLayout>

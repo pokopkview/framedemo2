@@ -1,0 +1,38 @@
+<reco.frame.tv.view.TvRelativeLayoutAsGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res/reco.frame.demo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="@dimen/px100"
+    android:paddingRight="@dimen/px100"
+    tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+    tv:boarder="@dimen/px2"
+    android:id="@+id/trl_root" >
+
+    <!--  -->
+    <ImageView
+        android:id="@+id/iv_qr"
+        android:layout_width="@dimen/px400"
+        android:layout_height="@dimen/px400"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_blue_light"
+        android:visibility="invisible"
+         />
+    
+    <Button 
+        android:layout_width="@dimen/px100"
+        android:layout_height="@dimen/px100"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_qr"
+        />
+    
+    <Button 
+        android:layout_width="@dimen/px100"
+        android:layout_height="@dimen/px100"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_qr"
+        />
+
+</reco.frame.tv.view.TvRelativeLayoutAsGroup>

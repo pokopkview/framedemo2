@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reco.frame.tv.view.TvRelativeLayoutAsScroll xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/px20"
+    android:paddingLeft="@dimen/px150"
+    tv:animationType="DEFAULT"
+    tv:scale="1.07"
+    tv:durationTranslate="11"
+    tv:boarderInt="2"
+    tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+    android:id="@+id/trl_root">
+
+
+
+
+</reco.frame.tv.view.TvRelativeLayoutAsScroll>

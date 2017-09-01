@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tvframe_remote">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recoTvFrameDemo/libs/tvframe_remote.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

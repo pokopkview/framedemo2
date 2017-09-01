@@ -1,0 +1,61 @@
+<reco.frame.tv.view.TvRelativeLayoutAsGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tv="http://schemas.android.com/apk/res/reco.frame.demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tv:animationType="DEFAULT"
+    tv:durationTranslate="11"
+    tv:boarderInt="2"
+    tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+    
+    >
+     <!--
+     	cursorRes 指定选中效果图
+     	boarder-:光标偏移参数组
+     	columns/rows:指定显示列数或行数
+		itemWidth:子项 宽
+		itemHeight:子项高
+		spaceHori:子项水平间隔
+		spaceVert:子项竖直间隔
+		paddingLeft:左内边距  * 右外边距据此自动计算
+		paddingTop:左上边距
+		initFocus:初始获得焦点
+		scrollMode:滚动模式  默认FILL 选中框自适应   EDGE为选中框到时边缘时滚动   GALLERY 选中框居中滚动  
+		scalable:子项是否放大
+		scale:放大比率
+		animationType:选中框位移动画
+		durationLarge:放大用时
+		durationSmall:缩小用时
+		delay:放大动画启动延时
+		scrollDelay:滚动延时
+		scrollDuration:滚动用时
+    	-->
+    <reco.frame.tv.view.TvHorizontalGridView 
+        android:id="@+id/tgv_list"
+        android:layout_width="@dimen/px1280"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/px300"
+        android:layout_marginTop="@dimen/px100"
+        tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        tv:itemWidth="@dimen/px230"
+        tv:itemHeight="@dimen/px230"
+        tv:rows="3"
+        tv:paddingLeft="@dimen/px31"
+        tv:paddingTop="@dimen/px21"
+        tv:animationType="TRANSLATE"
+       />
+
+    <Button
+        android:id="@+id/tb_add"
+        android:layout_width="@dimen/px200"
+        android:layout_height="@dimen/px100"
+        android:layout_marginBottom="@dimen/px27"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="add"
+        android:text="加载更多"
+        />
+    
+</reco.frame.tv.view.TvRelativeLayoutAsGroup>

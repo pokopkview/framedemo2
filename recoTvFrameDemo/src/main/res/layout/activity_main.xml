@@ -1,0 +1,146 @@
+<reco.frame.tv.view.TvRelativeLayoutAsGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tv:boarderInt="2"
+    tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+    tv:durationTranslate="11" >
+
+    <TextView
+        android:id="@+id/tv_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/px100"
+        android:layout_marginTop="@dimen/px100"
+        android:text="电视控件集"
+        android:textSize="@dimen/px36" />
+
+    <!--  -->
+    
+    <reco.frame.tv.view.TvListView 
+        android:id="@+id/tlv_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px530"
+        android:layout_marginLeft="@dimen/px40"
+        android:layout_marginTop="@dimen/px220"
+        tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+        tv:itemWidth="@dimen/px520"
+        tv:itemHeight="@dimen/px60"
+        tv:paddingLeft="@dimen/px40"
+        tv:focusOption="PARENT_ONLY"
+        tv:paddingTop="@dimen/px14"
+        tv:spaceVert="@dimen/px40"
+        tv:scrollMode="FILL"
+        tv:scrollDuration="510"
+        tv:initFocus="true"
+        />
+
+
+    <!-- 综合框架示例 -->
+
+    <TextView
+        android:id="@+id/tv_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px100"
+        android:layout_marginTop="@dimen/px100"
+        android:text="网络及数据库"
+        android:textSize="@dimen/px36" />
+
+    <Button
+        android:id="@+id/tb_tv_bitmap"
+        android:layout_width="@dimen/px520"
+        android:layout_height="@dimen/px70"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px100"
+        android:layout_below="@+id/tv_frame"
+        android:layout_marginTop="@dimen/px80"
+        android:background="@android:color/holo_blue_light"
+        android:text="TvBitmap：一行代码完成网络图片加载"
+        android:textSize="@dimen/px36"
+        android:singleLine="true"
+		android:selectAllOnFocus="true" 
+		android:ellipsize="marquee" 
+		android:marqueeRepeatLimit="marquee_forever"
+		android:paddingLeft="@dimen/px35"
+		android:paddingRight="@dimen/px35" />
+
+    <Button
+        android:id="@+id/tb_tv_db"
+        android:layout_width="@dimen/px520"
+        android:layout_height="@dimen/px60"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px100"
+        android:layout_below="@+id/tb_tv_bitmap"
+        android:layout_marginTop="@dimen/px40"
+        android:background="@android:color/holo_blue_light"
+        android:text="TvDb:超简单数据库工具示例"
+        android:textSize="@dimen/px36"
+        android:singleLine="true"
+		android:selectAllOnFocus="true" 
+		android:ellipsize="marquee" 
+		android:marqueeRepeatLimit="marquee_forever" />
+
+    <Button
+        android:id="@+id/tb_tv_http"
+        android:layout_width="@dimen/px520"
+        android:layout_height="@dimen/px60"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px100"
+        android:layout_below="@+id/tb_tv_db"
+        android:layout_marginTop="@dimen/px40"
+        android:background="@android:color/holo_blue_light"
+        android:text="TvHttp文件下载 get及post请求示例"
+        android:textSize="@dimen/px36"
+        android:singleLine="true"
+		android:selectAllOnFocus="true" 
+		android:ellipsize="marquee" 
+		android:marqueeRepeatLimit="marquee_forever"
+		android:paddingLeft="@dimen/px35"
+		android:paddingRight="@dimen/px35" />
+
+    <!-- 遥控模块 -->
+
+    <TextView
+        android:id="@+id/tv_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px100"
+        android:layout_below="@+id/tb_tv_http"
+        android:layout_marginTop="@dimen/px40"
+        android:text="电视遥控模块"
+        android:textSize="@dimen/px36" />
+
+    <Button
+        android:id="@+id/tb_tv_reomte_a"
+        android:layout_width="@dimen/px520"
+        android:layout_height="@dimen/px60"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px100"
+        android:layout_below="@+id/tv_remote"
+        android:layout_marginTop="@dimen/px40"
+        android:background="@android:color/holo_blue_light"
+        android:text="手机遥控电视简单示例"
+        android:textSize="@dimen/px36"
+        android:singleLine="true"
+		android:selectAllOnFocus="true" 
+		android:ellipsize="marquee" 
+		android:marqueeRepeatLimit="marquee_forever"
+		android:paddingLeft="@dimen/px35"
+		android:paddingRight="@dimen/px35" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/px100"
+        android:text="电视开发专区:414801661"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/px36" />
+
+</reco.frame.tv.view.TvRelativeLayoutAsGroup>

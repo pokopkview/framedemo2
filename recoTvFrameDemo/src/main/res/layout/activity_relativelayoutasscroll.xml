@@ -1,0 +1,122 @@
+<reco.frame.tv.view.TvRelativeLayoutAsScroll xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res/reco.frame.demo"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/px200"
+    android:paddingLeft="@dimen/px40"
+    tv:animationType="TRANSLATE"
+    tv:durationTranslate="11"
+    tv:boarderInt="2"
+    tv:cursorRes="@drawable/cursor_rectangle_boarder_orange"
+    android:id="@+id/trl_root" >
+    
+    <!--  
+   		boarder-:光标偏移参数组
+   		paddingLeft:左内边距  * 右外边距据此自动计算
+		paddingTop:左上边距
+		initFocus:初始获得焦点
+		scalable:子项是否放大
+		scale:放大比率
+		animationType:选中框位移动画
+		durationLarge:放大用时
+		durationSmall:缩小用时
+		delay:放大动画启动延时
+   -->
+
+    <Button
+        android:id="@+id/bt_flush"
+        android:layout_width="@dimen/px550"
+        android:layout_height="@dimen/px550"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/holo_blue_light"
+        android:nextFocusRight="@+id/bt_gabage" />
+
+    <Button
+        android:id="@+id/bt_gabage"
+        android:layout_width="@dimen/px550"
+        android:layout_height="@dimen/px270"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_flush"
+        android:background="@android:color/holo_blue_light"
+        android:nextFocusDown="@+id/bt_uninstall" />
+
+    <Button
+        android:id="@+id/bt_bigfile"
+        android:layout_width="@dimen/px270"
+        android:layout_height="@dimen/px270"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_gabage"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/bt_netspeed"
+        android:layout_width="@dimen/px270"
+        android:layout_height="@dimen/px270"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_bigfile"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/bt_uninstall"
+        android:layout_width="@dimen/px270"
+        android:layout_height="@dimen/px270"
+        android:layout_below="@+id/bt_gabage"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginTop="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_flush"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/bt_apk"
+        android:layout_width="@dimen/px270"
+        android:layout_height="@dimen/px270"
+        android:layout_below="@+id/bt_gabage"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginTop="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_uninstall"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/bt_f"
+        android:layout_width="@dimen/px270"
+        android:layout_height="@dimen/px270"
+        android:layout_below="@+id/bt_bigfile"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginTop="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_apk"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/bt_g"
+        android:layout_width="@dimen/px550"
+        android:layout_height="@dimen/px270"
+        android:layout_below="@+id/bt_netspeed"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginTop="@dimen/px10"
+        android:layout_toRightOf="@+id/bt_f"
+        android:background="@android:color/holo_blue_light" />
+    
+    <Button
+        android:id="@+id/bt_h"
+        android:layout_width="@dimen/px270"
+        android:layout_height="@dimen/px270"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_alignTop="@+id/bt_netspeed"
+        android:layout_toRightOf="@+id/bt_netspeed"
+        android:background="@android:color/holo_blue_light" />
+    
+    <Button
+        android:id="@+id/bt_i"
+        android:layout_width="@dimen/px550"
+        android:layout_height="@dimen/px550"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_alignTop="@+id/bt_h"
+        android:layout_toRightOf="@+id/bt_h"
+        android:background="@android:color/holo_blue_light" />
+
+</reco.frame.tv.view.TvRelativeLayoutAsScroll>

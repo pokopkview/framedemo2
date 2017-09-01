@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tv="http://schemas.android.com/apk/res/reco.frame.demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark" >
+    
+    
+    <!-- 
+    	textColorDefault:标题默认色
+	    textColorSelected:标题选中色
+	    textSize:标题文字大小
+        titleMarginLeft:标题栏左边距 用于调用标题栏水平位置
+        titleWidth:单个标题宽度
+		titleHeight:单个标题高度
+		titleSpace:标题间隔
+		cursorWidth:选中框宽
+		cursorHeight:选中框高
+		cursorMargin-:选中框外边距
+		cursorOffset-:选中框偏移值  
+		dividerHeight:标题栏与fragment竖直距离
+		durationScroll:滚动时间 -->
+
+    <reco.frame.tv.view.TvTabHost
+        android:id="@+id/tth_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tv:cursorRes="@drawable/cursor_shine"
+        tv:paddingLeft="@dimen/px30"
+        tv:paddingTop="@dimen/px30"
+        tv:textColorDefault="@android:color/holo_blue_dark"
+        tv:textColorSelected="@android:color/white"
+        tv:textSize="@dimen/px36"
+        tv:titleMarginLeft="@dimen/px100"
+        tv:titleWidth="@dimen/px120"
+        tv:titleHeight="@dimen/px70"
+        tv:titleSpace="@dimen/px30"
+        tv:cursorWidth="@dimen/px150"
+        tv:cursorHeight="@dimen/px60"
+        tv:cursorMarginTop="@dimen/px30"
+        tv:cursorOffsetLeft="@dimen/px40"
+        tv:dividerHeight="@dimen/px50"
+        tv:durationScroll="400"
+         />
+
+</RelativeLayout>

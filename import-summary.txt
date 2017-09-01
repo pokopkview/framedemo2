@@ -1,0 +1,408 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From RecoTvFrame:
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\gradle.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\runConfigurations.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* build.gradle
+* build.xml
+* frametv.iml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* import-summary.txt
+* proguard-project.txt
+* recoTvFrameDemo\
+* recoTvFrameDemo\build.gradle
+* recoTvFrameDemo\libs\
+* recoTvFrameDemo\libs\commons-codec-1.4.jar
+* recoTvFrameDemo\libs\core.jar
+* recoTvFrameDemo\libs\httpmime-4.1.1.jar
+* recoTvFrameDemo\libs\tvframe_remote.jar
+* recoTvFrameDemo\libs\umeng-sdk-analytics_v5.2.2.jar
+* recoTvFrameDemo\lint.xml
+* recoTvFrameDemo\src\
+* recoTvFrameDemo\src\main\
+* recoTvFrameDemo\src\main\AndroidManifest.xml
+* recoTvFrameDemo\src\main\assets\
+* recoTvFrameDemo\src\main\assets\eve2.jpg
+* recoTvFrameDemo\src\main\assets\fonts\
+* recoTvFrameDemo\src\main\assets\fonts\lth.ttf
+* recoTvFrameDemo\src\main\assets\framedemo.apk
+* recoTvFrameDemo\src\main\java\
+* recoTvFrameDemo\src\main\java\reco\
+* recoTvFrameDemo\src\main\java\reco\frame\
+* recoTvFrameDemo\src\main\java\reco\frame\demo\
+* recoTvFrameDemo\src\main\java\reco\frame\demo\MainActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\DbListAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\GalleryAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\TvGridAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\TvListAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\TvPageAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\TvPageListAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\adapter\TvWidgetAdapter.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\entity\
+* recoTvFrameDemo\src\main\java\reco\frame\demo\entity\AppInfo.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\entity\Config.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\phone\
+* recoTvFrameDemo\src\main\java\reco\frame\demo\phone\RemoteActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\FragmentA.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\FragmentB.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\FragmentC.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvBitmapActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvDbActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvGalleryActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvGridViewActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvHorizontalGridViewActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvHttpActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvListViewActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvLoadingBarActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvMarqueeTextActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvProgressBarActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvRelativeLayoutAsGroupActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvRelativeLayoutAsScrollActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvRemoteActivity.java
+* recoTvFrameDemo\src\main\java\reco\frame\demo\sample\TvTabHostActivity.java
+* recoTvFrameDemo\src\main\res\
+* recoTvFrameDemo\src\main\res\.DS_Store
+* recoTvFrameDemo\src\main\res\drawable-hdpi\
+* recoTvFrameDemo\src\main\res\drawable-hdpi\market_logo.png
+* recoTvFrameDemo\src\main\res\drawable-mdpi\
+* recoTvFrameDemo\src\main\res\drawable-mdpi\market_logo.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\
+* recoTvFrameDemo\src\main\res\drawable-nodpi\app_bg_default.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\circle_a.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\circle_b.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\color_bg.jpg
+* recoTvFrameDemo\src\main\res\drawable-nodpi\cursor_rectangle_boarder_orange.xml
+* recoTvFrameDemo\src\main\res\drawable-nodpi\cursor_shadow.9.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\cursor_shine.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\eve.jpg
+* recoTvFrameDemo\src\main\res\drawable-nodpi\icon_reco.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\loading.png
+* recoTvFrameDemo\src\main\res\drawable-nodpi\selector_test.xml
+* recoTvFrameDemo\src\main\res\drawable-nodpi\tj.jpg
+* recoTvFrameDemo\src\main\res\drawable-xhdpi\
+* recoTvFrameDemo\src\main\res\drawable-xhdpi\market_logo.png
+* recoTvFrameDemo\src\main\res\drawable-xxhdpi\
+* recoTvFrameDemo\src\main\res\drawable-xxhdpi\market_logo.png
+* recoTvFrameDemo\src\main\res\layout\
+* recoTvFrameDemo\src\main\res\layout\activity_app_home_fragment.xml
+* recoTvFrameDemo\src\main\res\layout\activity_bitmap.xml
+* recoTvFrameDemo\src\main\res\layout\activity_loadingbar.xml
+* recoTvFrameDemo\src\main\res\layout\activity_main.xml
+* recoTvFrameDemo\src\main\res\layout\activity_phone_remote.xml
+* recoTvFrameDemo\src\main\res\layout\activity_progressbar.xml
+* recoTvFrameDemo\src\main\res\layout\activity_relativelayoutasgroup.xml
+* recoTvFrameDemo\src\main\res\layout\activity_relativelayoutasscroll.xml
+* recoTvFrameDemo\src\main\res\layout\activity_remote.xml
+* recoTvFrameDemo\src\main\res\layout\activity_templet_a.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvdb.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvgallery.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvgridview.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvhorizontalgridview.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvhttp.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvlistview.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvmarqueetext.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvtabhost.xml
+* recoTvFrameDemo\src\main\res\layout\activity_tvverticalpager.xml
+* recoTvFrameDemo\src\main\res\layout\frag_a.xml
+* recoTvFrameDemo\src\main\res\layout\frag_b.xml
+* recoTvFrameDemo\src\main\res\layout\frag_c.xml
+* recoTvFrameDemo\src\main\res\layout\item_bitmap.xml
+* recoTvFrameDemo\src\main\res\layout\item_db.xml
+* recoTvFrameDemo\src\main\res\layout\item_grid.xml
+* recoTvFrameDemo\src\main\res\layout\item_list.xml
+* recoTvFrameDemo\src\main\res\layout\item_page.xml
+* recoTvFrameDemo\src\main\res\layout\item_page_list.xml
+* recoTvFrameDemo\src\main\res\layout\item_widget.xml
+* recoTvFrameDemo\src\main\res\menu\
+* recoTvFrameDemo\src\main\res\menu\main.xml
+* recoTvFrameDemo\src\main\res\values-sw600dp\
+* recoTvFrameDemo\src\main\res\values-sw600dp\dimens.xml
+* recoTvFrameDemo\src\main\res\values-sw720dp-land\
+* recoTvFrameDemo\src\main\res\values-sw720dp-land\dimens.xml
+* recoTvFrameDemo\src\main\res\values-v11\
+* recoTvFrameDemo\src\main\res\values-v11\styles.xml
+* recoTvFrameDemo\src\main\res\values-v14\
+* recoTvFrameDemo\src\main\res\values-v14\styles.xml
+* recoTvFrameDemo\src\main\res\values\
+* recoTvFrameDemo\src\main\res\values\dimens.xml
+* recoTvFrameDemo\src\main\res\values\strings.xml
+* recoTvFrameDemo\src\main\res\values\styles.xml
+* recoTvFrameDemo\src\main\resources\
+* recoTvFrameDemo\src\main\resources\.DS_Store
+* recoTvFrame\
+* recoTvFrame\build.gradle
+* recoTvFrame\libs\
+* recoTvFrame\libs\httpcore-4.2.1.jar
+* recoTvFrame\lint.xml
+* recoTvFrame\src\
+* recoTvFrame\src\main\
+* recoTvFrame\src\main\AndroidManifest.xml
+* recoTvFrame\src\main\java\
+* recoTvFrame\src\main\java\reco\
+* recoTvFrame\src\main\java\reco\frame\
+* recoTvFrame\src\main\java\reco\frame\tv\
+* recoTvFrame\src\main\java\reco\frame\tv\TvActivity.java
+* recoTvFrame\src\main\java\reco\frame\tv\TvBitmap.java
+* recoTvFrame\src\main\java\reco\frame\tv\TvDb.java
+* recoTvFrame\src\main\java\reco\frame\tv\TvHttp.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\Id.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\ManyToOne.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\OneToMany.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\Property.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\Table.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\sqlite\Transient.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\view\
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\view\EventListener.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\view\Select.java
+* recoTvFrame\src\main\java\reco\frame\tv\annotation\view\ViewInject.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\LoaderImpl.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\BaseMemoryCacheImpl.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\BitmapCache.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\BitmapDecoder.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\BitmapDisplayConfig.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\BitmapProcess.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\BytesBufferPool.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\DiskCache.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\IMemoryCache.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\LruMemoryCache.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\core\SoftMemoryCacheImpl.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\display\
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\display\Displayer.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\display\SimpleDisplayer.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\download\
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\download\Downloader.java
+* recoTvFrame\src\main\java\reco\frame\tv\bitmap\download\SimpleDownloader.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\
+* recoTvFrame\src\main\java\reco\frame\tv\core\AbstractCollection.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\ArrayDeque.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\Arrays.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\AsyncTask.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\Deque.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\FileNameGenerator.java
+* recoTvFrame\src\main\java\reco\frame\tv\core\Queue.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\CursorUtils.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\DbModel.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\ManyToOneLazyLoader.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\OneToManyLazyLoader.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\SqlBuilder.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\sqlite\SqlInfo.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\Id.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\KeyValue.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\ManyToOne.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\OneToMany.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\Property.java
+* recoTvFrame\src\main\java\reco\frame\tv\db\table\TableInfo.java
+* recoTvFrame\src\main\java\reco\frame\tv\exception\
+* recoTvFrame\src\main\java\reco\frame\tv\exception\DbException.java
+* recoTvFrame\src\main\java\reco\frame\tv\exception\HttpException.java
+* recoTvFrame\src\main\java\reco\frame\tv\exception\TvException.java
+* recoTvFrame\src\main\java\reco\frame\tv\exception\ViewException.java
+* recoTvFrame\src\main\java\reco\frame\tv\function\
+* recoTvFrame\src\main\java\reco\frame\tv\function\RecoPlat.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\
+* recoTvFrame\src\main\java\reco\frame\tv\http\AjaxCallBack.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\AjaxParams.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\HttpHandler.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\MultipartEntity.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\PreferencesCookieStore.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\RetryHandler.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\SyncRequestHandler.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\entityhandler\
+* recoTvFrame\src\main\java\reco\frame\tv\http\entityhandler\EntityCallBack.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\entityhandler\FileEntityHandler.java
+* recoTvFrame\src\main\java\reco\frame\tv\http\entityhandler\StringEntityHandler.java
+* recoTvFrame\src\main\java\reco\frame\tv\remote\
+* recoTvFrame\src\main\java\reco\frame\tv\remote\Remote.java
+* recoTvFrame\src\main\java\reco\frame\tv\remote\RemoteUtil.java
+* recoTvFrame\src\main\java\reco\frame\tv\remote\RequestListenerReceiver.java
+* recoTvFrame\src\main\java\reco\frame\tv\remote\TaskInfo.java
+* recoTvFrame\src\main\java\reco\frame\tv\remote\TvRemoteSocket.java
+* recoTvFrame\src\main\java\reco\frame\tv\remote\UdpHelper.java
+* recoTvFrame\src\main\java\reco\frame\tv\util\
+* recoTvFrame\src\main\java\reco\frame\tv\util\ClassUtils.java
+* recoTvFrame\src\main\java\reco\frame\tv\util\FieldUtils.java
+* recoTvFrame\src\main\java\reco\frame\tv\util\Utils.java
+* recoTvFrame\src\main\java\reco\frame\tv\util\ViewUtil.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\
+* recoTvFrame\src\main\java\reco\frame\tv\view\FreeStyleTextView.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvButton.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvGallery.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvGridView.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvHorizontalGridView.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvImageView.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvListView.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvLoadingBar.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvMarqueeText.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvProgressBar.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvRelativeLayout.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvRelativeLayoutAsGroup.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvRelativeLayoutAsScroll.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvSubButton.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvTabHost.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvVerticalPager.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\TvView.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\component\
+* recoTvFrame\src\main\java\reco\frame\tv\view\component\FragmentAdapter.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\component\RecycleBin.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\component\TvBaseAdapter.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\component\TvSlowViewPager.java
+* recoTvFrame\src\main\java\reco\frame\tv\view\component\TvUtil.java
+* recoTvFrame\src\main\res\
+* recoTvFrame\src\main\res\drawable-hdpi\
+* recoTvFrame\src\main\res\drawable-hdpi\ic_launcher.png
+* recoTvFrame\src\main\res\drawable-mdpi\
+* recoTvFrame\src\main\res\drawable-mdpi\ic_launcher.png
+* recoTvFrame\src\main\res\drawable-xhdpi\
+* recoTvFrame\src\main\res\drawable-xhdpi\ic_launcher.png
+* recoTvFrame\src\main\res\drawable-xxhdpi\
+* recoTvFrame\src\main\res\drawable-xxhdpi\ic_launcher.png
+* recoTvFrame\src\main\res\layout\
+* recoTvFrame\src\main\res\layout\activity_free.xml
+* recoTvFrame\src\main\res\menu\
+* recoTvFrame\src\main\res\menu\free.xml
+* recoTvFrame\src\main\res\values-1280x672\
+* recoTvFrame\src\main\res\values-1280x672\dimens.xml
+* recoTvFrame\src\main\res\values-1280x672\strings.xml
+* recoTvFrame\src\main\res\values-1280x720\
+* recoTvFrame\src\main\res\values-1280x720\dimens.xml
+* recoTvFrame\src\main\res\values-1280x720\strings.xml
+* recoTvFrame\src\main\res\values-1920x1008\
+* recoTvFrame\src\main\res\values-1920x1008\dimens.xml
+* recoTvFrame\src\main\res\values-1920x1008\strings.xml
+* recoTvFrame\src\main\res\values-1920x1080\
+* recoTvFrame\src\main\res\values-1920x1080\dimens.xml
+* recoTvFrame\src\main\res\values-1920x1080\strings.xml
+* recoTvFrame\src\main\res\values-2560x1440\
+* recoTvFrame\src\main\res\values-2560x1440\dimens.xml
+* recoTvFrame\src\main\res\values-2560x1440\strings.xml
+* recoTvFrame\src\main\res\values-3840x2160\
+* recoTvFrame\src\main\res\values-3840x2160\dimens.xml
+* recoTvFrame\src\main\res\values-3840x2160\strings.xml
+* recoTvFrame\src\main\res\values-4096x2160\
+* recoTvFrame\src\main\res\values-4096x2160\dimens.xml
+* recoTvFrame\src\main\res\values-4096x2160\strings.xml
+* recoTvFrame\src\main\res\values-sw600dp\
+* recoTvFrame\src\main\res\values-sw600dp\dimens.xml
+* recoTvFrame\src\main\res\values-sw720dp-land\
+* recoTvFrame\src\main\res\values-sw720dp-land\dimens.xml
+* recoTvFrame\src\main\res\values-v11\
+* recoTvFrame\src\main\res\values-v11\styles.xml
+* recoTvFrame\src\main\res\values-v14\
+* recoTvFrame\src\main\res\values-v14\styles.xml
+* recoTvFrame\src\main\res\values\
+* recoTvFrame\src\main\res\values\attrs.xml
+* recoTvFrame\src\main\res\values\dimens.xml
+* recoTvFrame\src\main\res\values\strings.xml
+* recoTvFrame\src\main\res\values\styles.xml
+* settings.gradle
+From RecoTvFrameDemo:
+* .DS_Store
+* .gitignore
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.1.jar => com.google.code.gson:gson:2.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.1.jar => version 2.1 in com.google.code.gson:gson:2.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In RecoTvFrame:
+* AndroidManifest.xml => recoTvFrame\src\main\AndroidManifest.xml
+* libs\httpcore-4.2.1.jar => recoTvFrame\libs\httpcore-4.2.1.jar
+* lint.xml => recoTvFrame\lint.xml
+* res\ => recoTvFrame\src\main\res\
+* src\ => recoTvFrame\src\main\java\
+In RecoTvFrameDemo:
+* AndroidManifest.xml => recoTvFrameDemo\src\main\AndroidManifest.xml
+* assets\ => recoTvFrameDemo\src\main\assets\
+* libs\commons-codec-1.4.jar => recoTvFrameDemo\libs\commons-codec-1.4.jar
+* libs\core.jar => recoTvFrameDemo\libs\core.jar
+* libs\httpmime-4.1.1.jar => recoTvFrameDemo\libs\httpmime-4.1.1.jar
+* libs\tvframe_remote.jar => recoTvFrameDemo\libs\tvframe_remote.jar
+* libs\umeng-sdk-analytics_v5.2.2.jar => recoTvFrameDemo\libs\umeng-sdk-analytics_v5.2.2.jar
+* lint.xml => recoTvFrameDemo\lint.xml
+* res\ => recoTvFrameDemo\src\main\res\
+* src\ => recoTvFrameDemo\src\main\java\
+* src\.DS_Store => recoTvFrameDemo\src\main\resources\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

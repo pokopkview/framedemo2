@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/px400"
+    	android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="@dimen/px36"
+        android:textColor="@android:color/black"
+        android:singleLine="true"
+		android:ellipsize="marquee" 
+		android:marqueeRepeatLimit="marquee_forever" 
+		android:paddingLeft="@dimen/px35"
+		android:paddingRight="@dimen/px35"
+        />
